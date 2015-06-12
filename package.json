@@ -26,10 +26,13 @@
   "homepage": "https://github.com/rgbkrk/jupyter-sidecar",
   "electronVersion": "0.25.2",
   "dependencies": {
+    "electron-debug": "^0.1.0",
     "jmp": "0.0.3",
+    "jupyter-paths": "^0.1.0",
     "katex": "^0.2.0",
     "marked": "^0.3.3",
     "minimist": "^1.1.1",
+    "watch": "^0.16.0",
     "zmq": "^2.11.0"
   },
   "devDependencies": {

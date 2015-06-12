@@ -6,10 +6,11 @@
   </head>
   <body style="-webkit-app-region: drag">
     <div class="content pure-u-1">
+      <p>whoa</p>
       <div id="container">
       </div>
     </div>
-    
+
     <script>
       require('ipc').on('display', function(message) {
         document.getElementById('container').innerHTML = message;
